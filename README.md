@@ -5,7 +5,7 @@
 This repository contains a Python pipeline for segmenting RGB images using the Segment Anything Model (SAM) and classifying each segment into land surface categories using GPT-4o. The project then links each segment with thermal data from a handheld infrared camera to generate fine-scale temperature profiles across different land surface types.
 
 ## Directory Structure
-
+```
 thermal-segmentation-gpt4o/
 ├── input/
 │   ├── *.jpg / *.png               # RGB images
@@ -21,7 +21,7 @@ thermal-segmentation-gpt4o/
 ├── requirements.txt               # Python dependencies
 ├── test2.py                       # Main script
 ├── README.md                      # Project overview
-
+```
 ## Getting Started
 
 1. Clone the Repository
