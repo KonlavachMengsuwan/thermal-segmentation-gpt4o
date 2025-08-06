@@ -2,7 +2,6 @@
 
 ![Segmented_Thermal_Temperature_V6](https://github.com/user-attachments/assets/6dd82968-6563-4c18-9057-556f2810bb3d)
 
-
 This repository contains a Python pipeline for segmenting RGB images using the Segment Anything Model (SAM) and classifying each segment into land surface categories using GPT-4o. The project then links each segment with thermal data from a handheld infrared camera to generate fine-scale temperature profiles across different land surface types.
 
 ## Directory Structure
@@ -41,7 +40,7 @@ It is recommended to use a virtual environment (e.g., venv or conda):
 - Place RGB images and corresponding .csv thermal matrices inside the input/ folder.
 - Fill temp_rgb_array.txt with tab-separated file paths for each image–matrix pair, one per line:
 
-    input/img001.jpg    input/img001.csv
+    input/img001.jpg    input/img001.csv  
     input/img002.jpg    input/img002.csv
 
 4. Run the Main Script
