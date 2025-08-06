@@ -1,0 +1,6 @@
+opencv-python
+openpyxl
+matplotlib
+torch
+torchvision
+pydantic
