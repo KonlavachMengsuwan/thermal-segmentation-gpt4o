@@ -56,7 +56,7 @@ It is recommended to use a virtual environment (e.g., venv or conda):
 
 ## Example Outputs
 
-(You may add visual examples here in future)
+
 - Segmented RGB image
 - Temperature overlay by segment
 - Classification table (Level-1 and Level-2)
