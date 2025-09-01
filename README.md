@@ -48,15 +48,14 @@ It is recommended to use a virtual environment (e.g., venv or conda):
     python test2.py
 
 ## What This Code Does
-
+![FigureX_Workflow_V3](https://github.com/user-attachments/assets/045b2791-4527-4c04-ba67-c97bd940c065)
 - Segments RGB images using the Segment Anything Model (SAM).
 - Prompts GPT-4o to classify each segment into a hierarchical land surface category.
 - Integrates segment-level classification with median temperature from the corresponding thermal matrix.
 - Outputs include temperature-labeled segments, statistics per land surface class, and visualizations.
 
 ## Example Outputs
-
-
+![FigureX_Overall Methods_6](https://github.com/user-attachments/assets/5024b2bb-82a7-459f-9243-9524a60e70ea)
 - Segmented RGB image
 - Temperature overlay by segment
 - Classification table (Level-1 and Level-2)
@@ -71,3 +70,5 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 If you use this code, please cite the associated publication (link and DOI coming soon via Zenodo).
 
 This work was supported by the Federal Ministry of Education and Research (BMBF – Bundesministerium für Bildung und Forschung) project “Multi-modal data integration, domain-specific methods, and AI to strengthen data literacy in agricultural research” (16DKWN089), WIR! - Land - Innovation - Lausitz (LIL) project “Landscape Innovations in Lausitz (Lusatia) for Climate-adapted Bioeconomy and nature-based Bioeconomy-Tourism” (03WIR3017A), and the Brandenburg University of Technology Cottbus-Senftenberg (BTU).
+
+![Segmented_Thermal_Temperature](https://github.com/user-attachments/assets/66e8d34e-2441-49ff-871f-3b5d84ac2940)
